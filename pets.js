@@ -30,10 +30,9 @@ if(process.argv.length < 3) {
             if(command == 'create') {
           console.log(pets)
         }})
-    
+        module.exports = pets
       }})
-    
-        
+     
 
 
 
