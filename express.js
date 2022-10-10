@@ -67,10 +67,6 @@ app.patch('/api/pets/:id', (req, res) => {
     }
     res.status(201).send(`Updated pet: ${req.params.id}`)
   })
-//  if(pet_name)
-//  client.query('UPDATE pets SET pet_name=ghghg WHERE id=2;')
-//  client.query(`UPDATE pets SET pet_name = '${pet_name}' WHERE id = ${id};`)
-//  res.status(200).send('you made it')
 
 //delete
 app.delete('/api/pets/:id', (req, res) => {
